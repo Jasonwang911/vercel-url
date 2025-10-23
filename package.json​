@@ -1,0 +1,17 @@
+{
+  "name": "auto-viewer-api",
+  "version": "1.0.0",
+  "description": "测试服务",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js"
+  },
+  "engines": {
+    "node": "12.22.0"
+  },
+  "dependencies": {
+    "puppeteer": "^13.7.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^13.7.0"
+  }
+}
