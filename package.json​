@@ -5,7 +5,7 @@
   "main": "api/index.js",
   "scripts": {
     "dev": "node api/index.js",
-    "build": "echo 'Build completed'",
+    "build": "node api/index.js",
     "start": "node api/index.js"
   },
   "engines": {
